@@ -1,4 +1,4 @@
-package edu.ib.game.app.card.CardActions
+package edu.ib.game.app.card.cardActions
 
 class DrawChangeColorAction:CardAction {
     override fun playCardAction() {

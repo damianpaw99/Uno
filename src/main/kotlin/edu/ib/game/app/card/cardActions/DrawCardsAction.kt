@@ -1,6 +1,6 @@
-package edu.ib.game.app.card.CardActions
+package edu.ib.game.app.card.cardActions
 
-class ChangeColorAction: CardAction {
+class DrawCardsAction: CardAction {
     override fun playCardAction() {
         TODO("Not yet implemented")
     }

@@ -11,7 +11,7 @@ class Game(controller: Controller) {
 
     var running = false;
     var players: ArrayList<Player> = ArrayList()
-    val mainDeck = Deck.generateFullDeck(50.0,50.0)
+    var mainDeck = Deck.generateFullDeck(50.0,50.0)
     val removedCardDeck = Deck()
     var playerTurn: Int = (Math.random()*2).toInt();
 

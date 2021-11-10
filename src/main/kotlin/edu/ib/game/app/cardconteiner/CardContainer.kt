@@ -7,9 +7,9 @@ import javafx.scene.image.Image
 
 open class CardContainer {
 
-    var avers=Image("/test/test.png")
+    //var avers=Image("/test/test.png")
 
-    var revers=Image("/test/test.png")
+    //var revers=Image("/test/test.png")
 
     val cards = ArrayList<Card>()
 
